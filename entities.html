@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Entities — The Corrupted Code</title>
-<meta name="description" content="Every entity in The Corrupted Code, grouped by kind, with stats where known.">
+<meta name="description" content="Every entity in The Corrupted Code, grouped by kind, each with its own dedicated page.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
@@ -37,9 +37,9 @@
 <section class="hero" style="padding: 70px 24px 50px;">
   <div class="hero-inner">
     <div class="breadcrumb"><a href="wiki.html">Wiki</a> / Entities</div>
-    <div class="hero-eyebrow">45+ entries</div>
+    <div class="hero-eyebrow">40+ entries</div>
     <h1 class="hero-title" style="font-size: clamp(2rem, 4.5vw, 3.2rem);">Entities</h1>
-    <p class="hero-sub">Every creature encountered in the mod's world, grouped by kind. Each entity has its own entry — link directly to one with its section anchor.</p>
+    <p class="hero-sub">Every creature encountered in the mod's world, grouped by kind. Each entity has its own page — click through for stats and connections.</p>
   </div>
 </section>
 
@@ -49,257 +49,81 @@
     <div id="null-variants" class="group-heading">Null Variants</div>
     <p class="group-sub">Ambient glitch manifestations of "null" — chat-scripted, mostly non-combative.</p>
     <div class="entity-grid">
-      <article id="null-welcome" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-welcome">Null Welcome</a></h4>
-        <p>The first "null" manifestation a player encounters — a greeting that shouldn't exist.</p>
-      </article>
-      <article id="null-attacking" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-attacking">Null Attacking</a></h4>
-        <p>An aggressive null manifestation, triggered once the phenomenon escalates.</p>
-      </article>
-      <article id="null-was-here" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-was-here">Null Was Here</a></h4>
-        <p>A trace left behind — evidence of null's presence after the fact.</p>
-      </article>
-      <article id="null-flying" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-flying">Null Flying</a></h4>
-        <p>An airborne null variant, seen drifting above corrupted terrain.</p>
-      </article>
-      <article id="null-watching" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-watching">Null Watching</a></h4>
-        <p>A stationary, observing null form. Related advancement: "why are you here?"</p>
-      </article>
-      <article id="null-scare" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-scare">Null Scare</a></h4>
-        <p>The jump-scare manifestation of null, triggered under specific conditions.</p>
-      </article>
-      <article id="null-endgame" class="entity-card">
-        <div class="tag">Null</div>
-        <h4><a href="#null-endgame">Null Endgame</a></h4>
-        <p>Null's final form, tied to the late stages of World Corruption.</p>
-      </article>
+      <a href="entities/null-welcome.html" class="entity-card"><div class="tag">Null</div><h4>Null Welcome</h4><p>The first "null" manifestation a player encounters — a greeting that shouldn't exist.</p><span class="more">View entry →</span></a>
+      <a href="entities/null-attacking.html" class="entity-card"><div class="tag">Null</div><h4>Null Attacking</h4><p>An aggressive null manifestation, triggered once the phenomenon escalates.</p><span class="more">View entry →</span></a>
+      <a href="entities/null-was-here.html" class="entity-card"><div class="tag">Null</div><h4>Null Was Here</h4><p>A trace left behind — evidence of null's presence after the fact.</p><span class="more">View entry →</span></a>
+      <a href="entities/null-flying.html" class="entity-card"><div class="tag">Null</div><h4>Null Flying</h4><p>An airborne null variant, seen drifting above corrupted terrain.</p><span class="more">View entry →</span></a>
+      <a href="entities/null-watching.html" class="entity-card"><div class="tag">Null</div><h4>Null Watching</h4><p>A stationary, observing null form. Related advancement: "why are you here?"</p><span class="more">View entry →</span></a>
+      <a href="entities/null-scare.html" class="entity-card"><div class="tag">Null</div><h4>Null Scare</h4><p>The jump-scare manifestation of null, triggered under specific conditions.</p><span class="more">View entry →</span></a>
+      <a href="entities/null-endgame.html" class="entity-card"><div class="tag">Null</div><h4>Null Endgame</h4><p>Null's final form, tied to the late stages of World Corruption.</p><span class="more">View entry →</span></a>
     </div>
 
     <div id="skinwalker-variants" class="group-heading">Skinwalker Variants</div>
     <p class="group-sub">The Level 1 bossfight and its deceptive relatives.</p>
     <div class="entity-grid">
-      <article id="skinwalker" class="entity-card">
-        <div class="tag">Boss · GeckoLib</div>
-        <h4><a href="#skinwalker">Skinwalker</a></h4>
-        <p>The base stalker and Level 1 bossfight. Must be thrown into the void to advance World Corruption.</p>
-        <div class="entity-stats"><span>HP <strong>80</strong></span><span>Speed <strong>0.50</strong></span><span>Dmg <strong>10</strong></span></div>
-      </article>
-      <article id="mineshaft-skinwalker" class="entity-card">
-        <div class="tag">Variant</div>
-        <h4><a href="#mineshaft-skinwalker">Mineshaft Skinwalker</a></h4>
-        <p>Spawns in abandoned mineshafts.</p>
-      </article>
-      <article id="mineshaft-skinwalker-false" class="entity-card">
-        <div class="tag">Variant · deceptive</div>
-        <h4><a href="#mineshaft-skinwalker-false">Mineshaft Skinwalker (False)</a></h4>
-        <p>A misleading fake version found in the same locations. Disappears as the player approaches, then a fake creeper spawns — the Skinwalker is inside it.</p>
-      </article>
-      <article id="moon-skinwalker" class="entity-card">
-        <div class="tag">Variant</div>
-        <h4><a href="#moon-skinwalker">Moon Skinwalker</a></h4>
-        <p>A variant tied to the Moon events (Distorted Moon / Broken Moon).</p>
-      </article>
+      <a href="entities/skinwalker.html" class="entity-card"><div class="tag">Boss · GeckoLib</div><h4>Skinwalker</h4><p>The base stalker and Level 1 bossfight. Thrown into the void to advance World Corruption.</p><div class="entity-stats"><span>HP <strong>80</strong></span><span>Speed <strong>0.50</strong></span><span>Dmg <strong>10</strong></span></div></a>
+      <a href="entities/mineshaft-skinwalker.html" class="entity-card"><div class="tag">Variant</div><h4>Mineshaft Skinwalker</h4><p>Spawns in abandoned mineshafts.</p><span class="more">View entry →</span></a>
+      <a href="entities/mineshaft-skinwalker-false.html" class="entity-card"><div class="tag">Variant · deceptive</div><h4>Mineshaft Skinwalker (False)</h4><p>A misleading fake version found in the same mineshafts.</p><span class="more">View entry →</span></a>
+      <a href="entities/moon-skinwalker.html" class="entity-card"><div class="tag">Variant</div><h4>Moon Skinwalker</h4><p>A variant tied to the Moon events.</p><span class="more">View entry →</span></a>
     </div>
 
     <div id="purgatory-dwellers" class="group-heading">Purgatory Dwellers</div>
-    <p class="group-sub">Creatures native to the 13-layer <a href="dimensions.html#purgatory">Purgatory</a> dimension.</p>
+    <p class="group-sub">Creatures native to the 13-layer <a href="dimensions/purgatory.html">Purgatory</a> dimension.</p>
     <div class="entity-grid">
-      <article id="purgatory-humanoid" class="entity-card">
-        <div class="tag">Wanderer</div>
-        <h4><a href="#purgatory-humanoid">Purgatory Humanoid</a></h4>
-        <p>Wanders layers 5, 7, 8, 10 and 11 — a different skin per layer. Passes through walls.</p>
-        <div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed <strong>2.20</strong></span></div>
-      </article>
-      <article id="someone-is-watching-l4" class="entity-card">
-        <div class="tag">Layer 4</div>
-        <h4><a href="#someone-is-watching-l4">Someone Is Watching (L4)</a></h4>
-        <p>Layer 4's own dedicated stalker, distinct from the surface variant.</p>
-        <div class="entity-stats"><span>HP <strong>36</strong></span><span>Dmg <strong>8</strong></span></div>
-      </article>
+      <a href="entities/purgatory-humanoid.html" class="entity-card"><div class="tag">Wanderer</div><h4>Purgatory Humanoid</h4><p>Wanders layers 5, 7, 8, 10 and 11 — a different skin per layer, passes through walls.</p><div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed <strong>2.20</strong></span></div></a>
+      <a href="entities/someone-is-watching-l4.html" class="entity-card"><div class="tag">Layer 4</div><h4>Someone Is Watching (L4)</h4><p>The 4th purgatory layer's own dedicated stalker.</p><div class="entity-stats"><span>HP <strong>36</strong></span><span>Dmg <strong>8</strong></span></div></a>
     </div>
 
     <div id="followers-stalkers" class="group-heading">Followers &amp; Stalkers</div>
     <p class="group-sub">Entities that trail the player through the overworld.</p>
     <div class="entity-grid">
-      <article id="someone-is-watching" class="entity-card">
-        <div class="tag">Stalker</div>
-        <h4><a href="#someone-is-watching">Someone Is Watching</a></h4>
-        <p>A cave stalker — "from the cave."</p>
-        <div class="entity-stats"><span>HP <strong>36</strong></span><span>Speed <strong>0.42</strong></span><span>Dmg <strong>10</strong></span></div>
-      </article>
-      <article id="watcher" class="entity-card">
-        <div class="tag">Encounter</div>
-        <h4><a href="#watcher">Watcher</a></h4>
-        <p>Vanishes into static the moment you meet its gaze. Related advancement: "I see you."</p>
-      </article>
-      <article id="wendigo" class="entity-card">
-        <div class="tag">GeckoLib</div>
-        <h4><a href="#wendigo">Wendigo</a></h4>
-        <p>Spawns at midnight in snowy taiga/tundra biomes. Follows the terrain closely while giving chase.</p>
-        <div class="entity-stats"><span>HP <strong>40</strong></span><span>Speed <strong>0.16</strong></span><span>Dmg <strong>10</strong></span></div>
-      </article>
-      <article id="lost-player" class="entity-card">
-        <div class="tag">Rare spawn</div>
-        <h4><a href="#lost-player">Lost Player</a></h4>
-        <p>A rare spawn that drags the player into the <a href="dimensions.html#dark-void">Dark Void</a>.</p>
-      </article>
+      <a href="entities/someone-is-watching.html" class="entity-card"><div class="tag">Stalker</div><h4>Someone Is Watching</h4><p>A cave stalker — "from the cave."</p><div class="entity-stats"><span>HP <strong>36</strong></span><span>Speed <strong>0.42</strong></span><span>Dmg <strong>10</strong></span></div></a>
+      <a href="entities/watcher.html" class="entity-card"><div class="tag">Encounter</div><h4>Watcher</h4><p>Vanishes into static on eye contact.</p><span class="more">View entry →</span></a>
+      <a href="entities/wendigo.html" class="entity-card"><div class="tag">GeckoLib</div><h4>Wendigo</h4><p>Spawns at midnight in snowy taiga/tundra, follows terrain while chasing.</p><div class="entity-stats"><span>HP <strong>40</strong></span><span>Speed <strong>0.16</strong></span><span>Dmg <strong>10</strong></span></div></a>
+      <a href="entities/lost-player.html" class="entity-card"><div class="tag">Rare spawn</div><h4>Lost Player</h4><p>Drags the player into the Dark Void.</p><span class="more">View entry →</span></a>
     </div>
 
     <div id="glitch-error-beings" class="group-heading">Glitch &amp; Error Beings</div>
     <p class="group-sub">Manifestations of the world's corruption at the code level.</p>
     <div class="entity-grid">
-      <article id="error-411" class="entity-card">
-        <div class="tag">Glitch</div>
-        <h4><a href="#error-411">Error 411</a></h4>
-        <p>"Missing player" — spawned on a Glitch Moon night. Places error blocks while chasing; contact teleports the player into Purgatory.</p>
-      </article>
-      <article id="corrupsion" class="entity-card">
-        <div class="tag">Ambient</div>
-        <h4><a href="#corrupsion">Corrupsion</a></h4>
-        <p>Slow-moving, embodies the world's corruption directly.</p>
-        <div class="entity-stats"><span>HP <strong>30</strong></span><span>Speed <strong>0.12</strong></span></div>
-      </article>
-      <article id="eye-player" class="entity-card">
-        <div class="tag">Fast</div>
-        <h4><a href="#eye-player">Eye Player</a></h4>
-        <p>A fast, black-skinned stalker.</p>
-        <div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed <strong>2.40</strong></span></div>
-      </article>
-      <article id="blackhead" class="entity-card">
-        <div class="tag">Corruption 2</div>
-        <h4><a href="#blackhead">Blackhead / 2 / 3</a></h4>
-        <p>Ambient spawn variants tied to corruption level 2.</p>
-        <div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed up to <strong>3.45</strong></span></div>
-      </article>
-      <article id="xdlifexd" class="entity-card">
-        <div class="tag">Layer 5 · Void</div>
-        <h4><a href="#xdlifexd">XDLifeXD</a></h4>
-        <p>A "former player" that chases through layer 5 of the void. A single hit is lethal.</p>
-        <div class="entity-stats"><span>HP <strong>40</strong></span><span>Dmg <strong>100</strong></span></div>
-      </article>
-      <article id="nothing-is-dead" class="entity-card">
-        <div class="tag">Forbidden</div>
-        <h4><a href="#nothing-is-dead">Nothing Is Dead</a></h4>
-        <p>Never say its name three times.</p>
-        <div class="entity-stats"><span>HP <strong>40</strong></span></div>
-      </article>
-      <article id="nothing-is-alive" class="entity-card">
-        <div class="tag">Chat entity</div>
-        <h4><a href="#nothing-is-alive">Nothing Is Alive</a></h4>
-        <p>Primarily a chat entity, but will attack if told to "show yourself."</p>
-      </article>
-      <article id="in-your-mind" class="entity-card">
-        <div class="tag">Psychological</div>
-        <h4><a href="#in-your-mind">In Your Mind</a></h4>
-        <p>A hallucination-driven being.</p>
-        <div class="entity-stats"><span>HP <strong>20</strong></span><span>Dmg <strong>4</strong></span></div>
-      </article>
-      <article id="whos5" class="entity-card">
-        <div class="tag">"A ghost"</div>
-        <h4><a href="#whos5">Whos5</a></h4>
-        <p>Manifests with lightning strikes and short time jumps.</p>
-      </article>
-      <article id="xxdye" class="entity-card">
-        <div class="tag">Stationary</div>
-        <h4><a href="#xxdye">XXDye (xXDYExX)</a></h4>
-        <p>Communicates only in binary code. An old player. See its <a href="story.html#lore">lore fragment</a>.</p>
-      </article>
-      <article id="siluet" class="entity-card">
-        <div class="tag">Scripted</div>
-        <h4><a href="#siluet">Siluet</a></h4>
-        <p>A motionless shadow figure, purely scripted.</p>
-      </article>
+      <a href="entities/error-411.html" class="entity-card"><div class="tag">Glitch</div><h4>Error 411</h4><p>"Missing player" — places error blocks while chasing, teleports the player to Purgatory.</p><span class="more">View entry →</span></a>
+      <a href="entities/corrupsion.html" class="entity-card"><div class="tag">Ambient</div><h4>Corrupsion</h4><p>Slow, embodies the world's corruption.</p><div class="entity-stats"><span>HP <strong>30</strong></span><span>Speed <strong>0.12</strong></span></div></a>
+      <a href="entities/eye-player.html" class="entity-card"><div class="tag">Fast</div><h4>Eye Player</h4><p>Fast, black-skinned stalker.</p><div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed <strong>2.40</strong></span></div></a>
+      <a href="entities/blackhead.html" class="entity-card"><div class="tag">Corruption 2</div><h4>Blackhead / 2 / 3</h4><p>Ambient spawn variants tied to corruption level 2.</p><div class="entity-stats"><span>HP <strong>20</strong></span><span>Speed up to <strong>3.45</strong></span></div></a>
+      <a href="entities/xdlifexd.html" class="entity-card"><div class="tag">Layer 5 · Void</div><h4>XDLifeXD</h4><p>"Former player," a single hit is lethal.</p><div class="entity-stats"><span>HP <strong>40</strong></span><span>Dmg <strong>100</strong></span></div></a>
+      <a href="entities/nothing-is-dead.html" class="entity-card"><div class="tag">Forbidden</div><h4>Nothing Is Dead</h4><p>Never say its name three times.</p><div class="entity-stats"><span>HP <strong>40</strong></span></div></a>
+      <a href="entities/nothing-is-alive.html" class="entity-card"><div class="tag">Chat entity</div><h4>Nothing Is Alive</h4><p>Can attack if told to "show yourself."</p><span class="more">View entry →</span></a>
+      <a href="entities/in-your-mind.html" class="entity-card"><div class="tag">Psychological</div><h4>In Your Mind</h4><p>A hallucination-driven being.</p><div class="entity-stats"><span>HP <strong>20</strong></span><span>Dmg <strong>4</strong></span></div></a>
+      <a href="entities/whos5.html" class="entity-card"><div class="tag">"A ghost"</div><h4>Whos5</h4><p>Lightning strikes and time jumps.</p><span class="more">View entry →</span></a>
+      <a href="entities/xxdye.html" class="entity-card"><div class="tag">Stationary</div><h4>XXDye (xXDYExX)</h4><p>Communicates only in binary — an old player.</p><span class="more">View entry →</span></a>
+      <a href="entities/siluet.html" class="entity-card"><div class="tag">Scripted</div><h4>Siluet</h4><p>A motionless shadow figure.</p><span class="more">View entry →</span></a>
     </div>
 
     <div id="lost-persons" class="group-heading">Lost Persons</div>
     <p class="group-sub">Former players and admins, consumed or corrupted before the player's arrival.</p>
     <div class="entity-grid">
-      <article id="herobrine" class="entity-card">
-        <div class="tag">Reference</div>
-        <h4><a href="#herobrine">Herobrine</a></h4>
-        <p>A classic creepypasta reference. Related advancement: "hello?"</p>
-      </article>
-      <article id="player-imposter" class="entity-card">
-        <div class="tag">Skinwalker variant</div>
-        <h4><a href="#player-imposter">Player Imposter</a></h4>
-        <p>An impostor disguised as another player.</p>
-      </article>
-      <article id="lost-admin" class="entity-card">
-        <div class="tag">"Old admin"</div>
-        <h4><a href="#lost-admin">Lost Admin</a></h4>
-        <p>A former server administrator, lost to the corruption.</p>
-      </article>
-      <article id="rezxqu" class="entity-card">
-        <div class="tag">"The hero"</div>
-        <h4><a href="#rezxqu">Rezxqu</a></h4>
-        <p>Kicks the player from the world on contact. See its <a href="story.html#lore">final message</a>.</p>
-      </article>
-      <article id="darkin303" class="entity-card">
-        <div class="tag">Skinwalker victim</div>
-        <h4><a href="#darkin303">DarkIn303 / Targeter</a></h4>
-        <p>An old player lost to the Skinwalker. The Targeter variant is noticeably stronger and faster.</p>
-        <div class="entity-stats"><span>HP <strong>40–90</strong></span></div>
-      </article>
-      <article id="boiled-one" class="entity-card">
-        <div class="tag">Old player</div>
-        <h4><a href="#boiled-one">Boiled One</a></h4>
-        <p>A victim / former player encountered in Level 2.</p>
-        <div class="entity-stats"><span>HP <strong>2048</strong></span><span>Dmg <strong>8</strong></span></div>
-      </article>
-      <article id="truth" class="entity-card">
-        <div class="tag">One message</div>
-        <h4><a href="#truth">Truth</a></h4>
-        <p>Speaks a single message ("the truth"), kicks the player, then deletes the world.</p>
-      </article>
-      <article id="entity303" class="entity-card">
-        <div class="tag">System error</div>
-        <h4><a href="#entity303">Entity303 / Jumpscare</a></h4>
-        <p>An old player, or a system error given form.</p>
-      </article>
+      <a href="entities/herobrine.html" class="entity-card"><div class="tag">Reference</div><h4>Herobrine</h4><p>A classic creepypasta reference.</p><span class="more">View entry →</span></a>
+      <a href="entities/player-imposter.html" class="entity-card"><div class="tag">Skinwalker variant</div><h4>Player Imposter</h4><p>An impostor disguised as a player.</p><span class="more">View entry →</span></a>
+      <a href="entities/lost-admin.html" class="entity-card"><div class="tag">"Old admin"</div><h4>Lost Admin</h4><p>A former server administrator, lost to the corruption.</p><span class="more">View entry →</span></a>
+      <a href="entities/rezxqu.html" class="entity-card"><div class="tag">"The hero"</div><h4>Rezxqu</h4><p>Kicks the player from the world on contact.</p><span class="more">View entry →</span></a>
+      <a href="entities/darkin303.html" class="entity-card"><div class="tag">Skinwalker victim</div><h4>DarkIn303 / Targeter</h4><p>Old player lost to the Skinwalker; Targeter is stronger and faster.</p><div class="entity-stats"><span>HP <strong>40–90</strong></span></div></a>
+      <a href="entities/boiled-one.html" class="entity-card"><div class="tag">Old player</div><h4>Boiled One</h4><p>A Level 2 victim / former player.</p><div class="entity-stats"><span>HP <strong>2048</strong></span><span>Dmg <strong>8</strong></span></div></a>
+      <a href="entities/truth.html" class="entity-card"><div class="tag">One message</div><h4>Truth</h4><p>A single message, then deletes the world.</p><span class="more">View entry →</span></a>
+      <a href="entities/entity303.html" class="entity-card"><div class="tag">System error</div><h4>Entity303 / Jumpscare</h4><p>Old player, or a system error given form.</p><span class="more">View entry →</span></a>
     </div>
 
     <div id="boss-void-entities" class="group-heading">Boss-Level &amp; Void Entities</div>
     <p class="group-sub">The mod's major encounters and the final antagonist.</p>
     <div class="entity-grid">
-      <article id="the-broken-one" class="entity-card">
-        <div class="tag">Boss</div>
-        <h4><a href="#the-broken-one">The Broken One</a></h4>
-        <p>The top-tier foe of the Broken Moon event and the Level 2 bossfight. Must be thrown into the void to advance World Corruption.</p>
-        <div class="entity-stats"><span>HP <strong>9999</strong></span><span>Dmg <strong>200</strong></span></div>
-      </article>
-      <article id="integrion" class="entity-card">
-        <div class="tag">"Deep down under the void"</div>
-        <h4><a href="#integrion">Integrion</a></h4>
-        <p>The mod's central antagonist — a watching form, dormant until the endgame ritual.</p>
-        <div class="entity-stats"><span>HP <strong>200</strong></span></div>
-      </article>
-      <article id="integrion-bossfight" class="entity-card">
-        <div class="tag">Final battle</div>
-        <h4><a href="#integrion-bossfight">Integrion Bossfight</a></h4>
-        <p>The final, two-phase battle. Defeating it closes the story and resets corruption level to 0.</p>
-        <div class="entity-stats"><span>HP <strong>1000</strong></span><span>Dmg <strong>10 / 15</strong></span></div>
-      </article>
+      <a href="entities/the-broken-one.html" class="entity-card"><div class="tag">Boss</div><h4>The Broken One</h4><p>Top-tier foe of the Broken Moon event and the Level 2 bossfight.</p><div class="entity-stats"><span>HP <strong>9999</strong></span><span>Dmg <strong>200</strong></span></div></a>
+      <a href="entities/integrion.html" class="entity-card"><div class="tag">"Deep down under the void"</div><h4>Integrion</h4><p>The mod's central antagonist — a watching form.</p><div class="entity-stats"><span>HP <strong>200</strong></span></div></a>
+      <a href="entities/integrion-bossfight.html" class="entity-card"><div class="tag">Final battle</div><h4>Integrion Bossfight</h4><p>The final, two-phase battle that closes the story.</p><div class="entity-stats"><span>HP <strong>1000</strong></span><span>Dmg <strong>10 / 15</strong></span></div></a>
     </div>
 
     <div id="misc" class="group-heading">Misc &amp; Animals</div>
     <p class="group-sub">Ambient world corruption effects.</p>
     <div class="entity-grid">
-      <article id="distorted-animals" class="entity-card">
-        <div class="tag">Ambient</div>
-        <h4><a href="#distorted-animals">Distorted Animals</a></h4>
-        <p>Distorted chickens, pigs, sheep and cows that appear during the Moon events.</p>
-      </article>
+      <a href="entities/distorted-animals.html" class="entity-card"><div class="tag">Ambient</div><h4>Distorted Animals</h4><p>Distorted chickens, pigs, sheep and cows during the Moon events.</p><span class="more">View entry →</span></a>
     </div>
 
   </div>
