@@ -1,10 +1,10 @@
-:root {
+﻿:root {
   --void: #08080a;
   --void-raised: #101013;
   --bone: #c9c4b8;
   --bone-dim: #8c877d;
-  --corrupt: #5ee6c4;
-  --corrupt-dim: #2d8a72;
+  --corrupt: #d1494a;
+  --corrupt-dim: #7a2626;
   --warn: #8b2e2e;
   --warn-bright: #c94444;
   --line: #26262b;
@@ -19,8 +19,8 @@ html { scroll-behavior: smooth; }
 
 body {
   background:
-    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(94,230,196,0.05), transparent 60%),
-    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(139,46,46,0.06), transparent 55%),
+    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(139,46,46,0.08), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(139,46,46,0.07), transparent 55%),
     var(--void);
   color: var(--bone);
   font-family: var(--body);
@@ -180,10 +180,10 @@ h1.hero-title .glitch-word {
 .btn-primary {
   background: var(--corrupt-dim);
   border-color: var(--corrupt-dim);
-  color: var(--void);
+  color: var(--bone);
   font-weight: 700;
 }
-.btn-primary:hover { background: var(--corrupt); border-color: var(--corrupt); box-shadow: 0 0 0 1px var(--corrupt), 0 10px 24px -12px rgba(94,230,196,0.5); transform: translateY(-1px); }
+.btn-primary:hover { background: var(--corrupt); border-color: var(--corrupt); box-shadow: 0 0 0 1px var(--corrupt), 0 10px 24px -12px rgba(209,73,74,0.45); transform: translateY(-1px); }
 
 .btn-ghost:hover { border-color: var(--corrupt-dim); color: var(--corrupt); transform: translateY(-1px); }
 .btn-sm { padding: 9px 16px; font-size: 11.5px; }
@@ -196,8 +196,8 @@ h1.hero-title .glitch-word {
   pointer-events: none;
   background: repeating-linear-gradient(
     to bottom,
-    rgba(94,230,196,0.02) 0px,
-    rgba(94,230,196,0.02) 1px,
+    rgba(180,60,60,0.03) 0px,
+    rgba(180,60,60,0.03) 1px,
     transparent 1px,
     transparent 3px
   );
@@ -385,6 +385,25 @@ a.card:hover h3 { color: var(--corrupt); }
 }
 
 .site-footer .studio { color: var(--corrupt-dim); }
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.footer-email {
+  font-family: var(--display);
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  color: var(--bone-dim);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.footer-email:hover, .footer-email:focus-visible { color: var(--corrupt); }
 
 @media (max-width: 640px) {
   nav.main-nav { gap: 16px; }
@@ -623,8 +642,8 @@ a.entity-card:hover .more { color: var(--corrupt); }
   pointer-events: none;
   background: repeating-linear-gradient(
     to bottom,
-    rgba(94,230,196,0.02) 0px,
-    rgba(94,230,196,0.02) 1px,
+    rgba(180,60,60,0.03) 0px,
+    rgba(180,60,60,0.03) 1px,
     transparent 1px,
     transparent 3px
   );
@@ -692,4 +711,48 @@ a.entity-card:hover .more { color: var(--corrupt); }
   text-transform: uppercase;
   color: var(--corrupt-dim);
   margin: 56px 0 18px;
+}
+
+/* ---------- images ---------- */
+
+/* hero image on a detail page (entity / dimension / block) */
+.detail-figure {
+  margin-top: 36px;
+  border: 1px solid var(--line);
+  background: var(--void-raised);
+  overflow: hidden;
+}
+.detail-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: cover;
+  filter: saturate(0.9) contrast(1.05);
+}
+
+/* thumbnail on a card in a grid (entity-grid / hub-grid / grid) */
+.card-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  filter: saturate(0.9) contrast(1.05);
+}
+
+/* inline image inside body copy, with optional caption */
+.figure {
+  margin: 32px 0;
+  border: 1px solid var(--line);
+  background: var(--void-raised);
+}
+.figure img { display: block; width: 100%; height: auto; }
+.figure figcaption {
+  padding: 10px 16px;
+  border-top: 1px solid var(--line);
+  font-family: var(--display);
+  font-size: 11px;
+  color: var(--bone-dim);
 }
