@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wiki — The Corrupted Code</title>
-<meta name="description" content="Entitások, dimenziók és rendszerek a The Corrupted Code modból.">
+<meta name="description" content="The Corrupted Code wiki: story, entities, dimensions, blocks, advancements and commands.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
@@ -15,79 +15,69 @@
   <div class="header-inner">
     <a href="index.html" class="wordmark"><span class="glyph">&gt;_</span> THE CORRUPTED CODE <small>wiki</small></a>
     <nav class="main-nav">
-      <a href="index.html">Kezdőlap</a>
+      <a href="index.html">Home</a>
       <a href="wiki.html" aria-current="page">Wiki</a>
-      <a href="download.html">Letöltés</a>
+      <a href="download.html">Download</a>
     </nav>
   </div>
 </header>
 
+<div class="subnav">
+  <div class="subnav-inner">
+    <a href="wiki.html" aria-current="page">Overview</a>
+    <a href="story.html">Story</a>
+    <a href="entities.html">Entities</a>
+    <a href="dimensions.html">Dimensions</a>
+    <a href="blocks.html">Blocks &amp; Items</a>
+    <a href="advancements.html">Advancements</a>
+    <a href="commands.html">Commands</a>
+  </div>
+</div>
+
 <section class="hero" style="padding: 80px 24px 60px;">
   <div class="hero-inner">
-    <div class="hero-eyebrow">Archívum</div>
+    <div class="hero-eyebrow">Archive</div>
     <h1 class="hero-title" style="font-size: clamp(2rem, 4.5vw, 3.2rem);">Wiki</h1>
-    <p class="hero-sub">Entitások, dimenziók és rendszerek a mod világából. Bővül a fejlesztéssel párhuzamosan.</p>
+    <p class="hero-sub">Everything known about The Corrupted Code, split into categories. Growing alongside development — new entities, layers and lore fragments are added over time.</p>
   </div>
 </section>
 
 <section class="block">
   <div class="block-inner">
-    <div class="section-label">Antagonisták &amp; kulcsentitások</div>
-    <h2>Kik — vagy mik — várnak rád</h2>
-    <div class="grid">
-      <div class="card">
-        <div class="tag">Boss · dupla entitás</div>
-        <h3>Integrion</h3>
-        <p>A mod központi antagonistája: egy AI, amely elnyelte a teremtőjét. Az IntegrionManager kezeli a viselkedését és fázisait.</p>
-      </div>
-      <div class="card">
-        <div class="tag">Encounter</div>
-        <h3>Skinwalker</h3>
-        <p>Entitás, amely mások alakját ölti magára — a SkinwalkerManager vezérli a megjelenését és viselkedését.</p>
-      </div>
-      <div class="card">
-        <div class="tag">Rituálé</div>
-        <h3>Entity 303 Ritual</h3>
-        <p>Az Entity303RitualManager által vezérelt esemény-sorozat, ami sötét mitológiát épít a modba.</p>
-      </div>
-      <div class="card">
-        <div class="tag">Állapot</div>
-        <h3>Lost Player</h3>
-        <p>A LostPlayerManager kezeli azt az állapotot, amikor a játékos "elveszettként" van jelölve a rendszer szerint.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="section-label">Categories</div>
+    <h2>Browse the wiki</h2>
 
-<section class="block">
-  <div class="block-inner">
-    <div class="section-label">Dimenziók</div>
-    <h2>Öt világ, öt stádium</h2>
-    <div class="grid">
-      <div class="card"><h3>Purgatory</h3><p>Átmeneti dimenzió a korrupció korai szakaszában.</p></div>
-      <div class="card"><h3>Integrated Void</h3><p>Az a tér, ahol Integrion befolyása már mélyen összefonódott a világgal.</p></div>
-      <div class="card"><h3>Dead Void</h3><p>Egy kiüresedett, elhagyatott dimenzió — a korrupció egyik végállomása.</p></div>
-      <div class="card"><h3>Ghost World</h3><p>A jelenlévők visszhangjai — mi marad, ha valami eltűnik.</p></div>
-      <div class="card"><h3>Dark Void</h3><p>A legmélyebb, legsötétebb réteg a dimenziók közül.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <div class="block-inner">
-    <div class="section-label">Rendszerek</div>
-    <h2>Ami a felszín alatt működik</h2>
-    <div class="grid">
-      <div class="card">
-        <div class="tag">Narratíva</div>
-        <h3>Final Corruption Manager</h3>
-        <p>A hat napos narratív ívet vezérli, amely fokozatosan alakítja át a világot Integrion terjeszkedésével.</p>
-      </div>
-      <div class="card">
-        <div class="tag">Architektúra</div>
-        <h3>Encounter rendszer</h3>
-        <p>21 encounter manager épül DeferredRegister + állapotgép mintára, GeckoLib animációval az entitásokhoz.</p>
-      </div>
+    <div class="hub-grid">
+      <a href="story.html" class="hub-card">
+        <div class="hub-count">World Corruption 0–3</div>
+        <h3>Story</h3>
+        <p>The corruption timeline, the seven-day countdown and every lore fragment recovered so far — Elias Morrow's monologues, chat quotes, /question fragments.</p>
+      </a>
+      <a href="entities.html" class="hub-card">
+        <div class="hub-count">45+ entries</div>
+        <h3>Entities</h3>
+        <p>Every creature in the mod, grouped by kind: Null variants, Skinwalkers, Purgatory dwellers, stalkers, glitch beings, lost persons and boss-level void entities.</p>
+      </a>
+      <a href="dimensions.html" class="hub-card">
+        <div class="hub-count">5 dimensions</div>
+        <h3>Dimensions</h3>
+        <p>Purgatory's 13 layers, the Dead Void, the Void Rooms labyrinth, Ghost World and the Dark Void.</p>
+      </a>
+      <a href="blocks.html" class="hub-card">
+        <div class="hub-count">Codex</div>
+        <h3>Blocks &amp; Items</h3>
+        <p>Ritual blocks, corrupted terrain variants and key items used across the story.</p>
+      </a>
+      <a href="advancements.html" class="hub-card">
+        <div class="hub-count">Codex</div>
+        <h3>Advancements</h3>
+        <p>Every advancement tied to an encounter or story beat.</p>
+      </a>
+      <a href="commands.html" class="hub-card">
+        <div class="hub-count">Codex</div>
+        <h3>Commands</h3>
+        <p>Player and admin commands, including /question, /unsafemode and event-speed controls.</p>
+      </a>
     </div>
   </div>
 </section>
