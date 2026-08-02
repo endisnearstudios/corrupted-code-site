@@ -47,14 +47,20 @@
 
 <section class="block">
   <div class="block-inner">
-    <div class="entity-grid">
-      <a href="structures/mirrorhouse.html" class="entity-card"><div class="tag">House</div><h4>mirrorhouse</h4><p>A house built almost entirely from reflective, mirrored panels.</p><span class="more">View entry →</span></a>
-      <a href="structures/clan-base-full.html" class="entity-card"><div class="tag">Base · Intact</div><h4>clan_base_full</h4><p>The clan's shared base, still standing whole.</p><span class="more">View entry →</span></a>
+    <div class="section-label">Mechanics</div>
+    <h2>How they appear</h2>
+    <p class="lede">Once per day (every 24,000 ticks, sped up or slowed by World Corruption and <code>/fastevents</code> / <code>/slowevents</code>) the mod rolls one random event from a pool of 34 possibilities. Most are harmless ambient glitches, floating water, bedrock sitting on the surface, a door opening on its own, and so on.</p>
+    <p class="lede" style="margin-top: -28px;">The roll only runs while <code>SkinwalkerManager.isAmbientEncounterSuppressed()</code> is false, meaning only at Corruption Level 1 or 2, never at Level 0 or Level 3, and it never runs inside the Purgatory dimension.</p>
+    <p class="lede" style="margin-top: -28px;">One of those 34 outcomes is <strong>lorebuild</strong>, roughly a 1-in-34 chance each day it can trigger at all. When it lands, the mod picks one of the 8 structures below at random, loads its NBT (<code>the_corrupted_code:lore_build/&lt;name&gt;</code>), and places it on the surface 8–14 blocks from the player, with no rotation or mirroring. The placement is permanent: there is no despawn timer, and nothing removes it afterward.</p>
+
+    <div class="entity-grid" style="margin-top: 40px;">
+      <a href="structures/mirrorhouse.html" class="entity-card"><div class="tag">House · Symmetrical</div><h4>mirrorhouse</h4><p>Both halves are an exact mirror — once the home of Nothing and Whos5.</p><span class="more">View entry →</span></a>
+      <a href="structures/clan-base-full.html" class="entity-card"><div class="tag">Base · Intact</div><h4>clan_base_full</h4><p>The clan's shared base, still standing whole — the old players' home.</p><span class="more">View entry →</span></a>
       <a href="structures/clan-base-crack.html" class="entity-card"><div class="tag">Base · Damaged</div><h4>clan_base_crack</h4><p>The clan's shared base, already fractured and collapsing.</p><span class="more">View entry →</span></a>
       <a href="structures/flowers.html" class="entity-card"><div class="tag">Garden</div><h4>flowers</h4><p>A small garden, oddly preserved among the corruption.</p><span class="more">View entry →</span></a>
       <a href="structures/the-mistake.html" class="entity-card"><div class="tag">Anomaly</div><h4>the_mistake</h4><p>A malformed structure that shouldn't exist.</p><span class="more">View entry →</span></a>
       <a href="structures/tower.html" class="entity-card"><div class="tag">Watchtower</div><h4>tower</h4><p>A tall watchtower overlooking the old base.</p><span class="more">View entry →</span></a>
-      <a href="structures/what.html" class="entity-card"><div class="tag">Anomaly</div><h4>what</h4><p>A structure whose purpose defies explanation.</p><span class="more">View entry →</span></a>
+      <a href="structures/what.html" class="entity-card"><div class="tag">Mossy Ruin</div><h4>what</h4><p>A weathered, moss-covered cobblestone building.</p><span class="more">View entry →</span></a>
       <a href="structures/xdlifexdhouse.html" class="entity-card"><div class="tag">House</div><h4>xdlifexdhouse</h4><p>The former home of the player XDLifeXD.</p><span class="more">View entry →</span></a>
     </div>
   </div>
