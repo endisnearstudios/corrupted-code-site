@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://endisnearstudios.github.io/corrupted-code-site/sitemap.xml
