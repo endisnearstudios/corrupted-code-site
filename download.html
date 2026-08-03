@@ -107,8 +107,8 @@
 
 <script>
 (function () {
-  var NAMESPACE = 'endisnearstudios-corrupted-code';
-  var KEY = 'downloads';
+  var COUNTER_KEY = 'endisnearstudios_corrupted_code_downloads';
+  var API_BASE = 'https://countapi.mileshilliard.com/api/v1';
   var countEl = document.getElementById('download-count');
   var btn = document.getElementById('download-btn');
 
@@ -116,14 +116,14 @@
     if (countEl) countEl.textContent = (typeof value === 'number') ? value.toLocaleString() : '—';
   }
 
-  fetch('https://api.countapi.xyz/get/' + NAMESPACE + '/' + KEY)
-    .then(function (r) { return r.json(); })
+  fetch(API_BASE + '/get/' + COUNTER_KEY)
+    .then(function (r) { return r.ok ? r.json() : { value: 0 }; })
     .then(function (d) { render(d && typeof d.value === 'number' ? d.value : 0); })
     .catch(function () { render('—'); });
 
   if (btn) {
     btn.addEventListener('click', function () {
-      fetch('https://api.countapi.xyz/hit/' + NAMESPACE + '/' + KEY)
+      fetch(API_BASE + '/hit/' + COUNTER_KEY)
         .then(function (r) { return r.json(); })
         .then(function (d) { render(d.value); })
         .catch(function () {});
