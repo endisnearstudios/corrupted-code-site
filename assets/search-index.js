@@ -82,5 +82,21 @@ const SEARCH_INDEX = [
   {c:'Structure',t:'the_mistake',u:'structures/the-mistake.html',d:'A malformed structure that shouldn\'t exist.'},
   {c:'Structure',t:'tower',u:'structures/tower.html',d:'A tall watchtower overlooking the old base.'},
   {c:'Structure',t:'what',u:'structures/what.html',d:'A weathered, moss-covered cobblestone building.'},
-  {c:'Structure',t:'xdlifexdhouse',u:'structures/xdlifexdhouse.html',d:'The former home of the player XDLifeXD.'}
+  {c:'Structure',t:'xdlifexdhouse',u:'structures/xdlifexdhouse.html',d:'The former home of the player XDLifeXD.'},
+  {c:'Event',t:'Ambient Event Pool',u:'events/ambient-event-pool.html',d:'A 34-outcome daily roll of small, mostly harmless glitches.'},
+  {c:'Event',t:'World Corruption 2 Pool',u:'events/world-corruption-2-pool.html',d:'A second random pool that layers extra encounters onto Level 2.'},
+  {c:'Event',t:'Elias_Th3_D3v Visit',u:'events/elias-visit.html',d:'A one-time, Caesar-cipher visit from the mod\'s fictional creator.'},
+  {c:'Event',t:'The Mirrorhouse Event',u:'events/mirrorhouse-event.html',d:'A scripted mirrorhouse spawn, separate from the random lorebuild roll.'},
+  {c:'Event',t:'Herobrine Void Hole',u:'events/herobrine-void-hole.html',d:'A carved hole sequence ending in Herobrine, and often company.'},
+  {c:'Event',t:'Distorted Moon',u:'events/distorted-moon.html',d:'A 3-night event with distorted animals and a Moon Skinwalker.'},
+  {c:'Event',t:'Glitch Moon',u:'events/glitch-moon.html',d:'A fixed cycle that spawns Error 411.'},
+  {c:'Event',t:'Broken Moon',u:'events/broken-moon.html',d:'A meteor impact that summons The Broken One.'},
+  {c:'Event',t:'Terrain Corruption',u:'events/terrain-corruption.html',d:'One random chunk collapses, rises, or vanishes every day.'},
+  {c:'Event',t:'World Corruption Progression',u:'events/world-corruption-progression.html',d:'The main engine behind the mod\'s four escalating states.'},
+  {c:'Event',t:'Profanity Swarm',u:'events/profanity-swarm.html',d:'Swearing at the mod can summon a swarm, and sometimes a mute.'},
+  {c:'Event',t:'The Ending Sequence',u:'events/ending-sequence.html',d:'A 5-second delay, then the reset and the credits.'},
+  {c:'Event',t:'Camera Event',u:'events/camera-event.html',d:'Opens the Windows Camera app and leaves a file on the desktop.'},
+  {c:'Event',t:'Desktop Whisper Event',u:'events/desktop-whisper-event.html',d:'Opens Notepad or a real terminal and "types" a personal message.'},
+  {c:'Event',t:'Horror Text Drop',u:'events/horror-text-drop.html',d:'Drops a horror text file on the desktop, sometimes ciphered.'},
+  {c:'Page',t:'Events',u:'events.html',d:'Ambient rolls, scripted time events, the endgame sequence and unsafe-only events.'}
 ];
