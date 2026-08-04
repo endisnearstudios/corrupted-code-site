@@ -625,6 +625,19 @@ a.entity-card:hover .more { color: var(--corrupt); }
   font-size: 1.02rem;
   line-height: 1.7;
 }
+.lore-body blockquote p { margin-bottom: 14px; }
+.lore-body blockquote p:last-child { margin-bottom: 0; }
+.lore-body blockquote strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--display);
+  font-style: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--corrupt);
+}
+.lore-body blockquote em { color: var(--bone-dim); }
 .lore-body .lore-meta { margin-top: 12px; color: var(--bone-dim); font-size: 0.85rem; font-family: var(--display); }
 
 /* ---------- qa fragments ---------- */
