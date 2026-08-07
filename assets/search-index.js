@@ -10,6 +10,7 @@ const SEARCH_INDEX = [
   {c:'Page',t:'Advancements',u:'advancements.html',d:'Advancements unlocked through encounters and story milestones.'},
   {c:'Page',t:'Commands',u:'commands.html',d:'Player and admin commands.'},
   {c:'Page',t:'Download',u:'download.html',d:'Download sources and requirements.'},
+  {c:'Page',t:'License',u:'license.html',d:'Copyright and license terms for The Corrupted Code.'},
   {c:'Entity',t:'Null Welcome',u:'entities/null-welcome.html',d:'The first null manifestation, greeting the player through title messages.'},
   {c:'Entity',t:'Null Attacking',u:'entities/null-attacking.html',d:'An aggressive null manifestation.'},
   {c:'Entity',t:'Null Was Here',u:'entities/null-was-here.html',d:'Rapid-fire teleporting, then a kick.'},
