@@ -396,7 +396,8 @@ a.card:hover h3 { color: var(--corrupt); }
   letter-spacing: 0.03em;
 }
 
-.site-footer .studio { color: var(--corrupt-dim); }
+.site-footer .studio { color: var(--corrupt-dim); text-decoration: none; transition: color 0.15s ease; }
+.site-footer a.studio:hover, .site-footer a.studio:focus-visible { color: var(--corrupt); }
 
 .site-footer .disclaimer {
   font-size: 10.5px;
